@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+}
+
+
+.banniere {
+
+  text-align: center;
+  background: black;
+  color: white;
+  font-size: 30px;
+  width:100%;
+  background-image: url(image/test_banniere.jpg);
+  background-size:auto;
+}
+
+.banniere_img {
+
+}
+.introduction{
+
+  margin: 10px;
+}
+
+.biographie{
+  text-align: center;
+}
+
+.menuDeroulant{
+  background-color: #a5a5a5;
+  text-align: center;
+}
+
+.button_Dessin{
+  background-color: #6ab213;
+  border: none;
+  padding: 15px 32px;
+}
+
+.button_Projet{
+  background-color: #00decd;
+  border: none;
+  padding: 15px 32px;
+}
+.button_Recherche{
+  background-color: #b0db00;
+  border: none;
+  padding: 15px 32px;
+}
+.button_Concept{
+  background-color: #de0000;
+  border: none;
+  padding: 15px 32px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {
+  background-color: #ddd;
+}
+
+
+.zoom {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgba( 0, 0, 0, 0.75);
+  text-align: center;
+}
+
+.zoom_image {
+  max-width: 100%;
+  max-height: 100vh;
+  height: auto;
+  margin-left: auto;
+ margin-right: auto;
+}
